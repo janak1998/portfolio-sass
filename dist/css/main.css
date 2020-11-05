@@ -446,6 +446,33 @@
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  .projects .text-secondary {
+    font-size: 3rem;
+  }
+  .contact_list {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects_items {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .contact_list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .projects_bio-image {
+    height: 60vh;
+  }
+  .about_bio-image {
+    height: 60vh;
+  }
 }
 
 body {
